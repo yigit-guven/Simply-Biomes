@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/cube_all",
     "textures": {
-        "all": "simply-biomes:block/scoria"
+        "all": "simplybiomes:block/scoria"
     }
 }

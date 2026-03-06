@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/cube_all",
     "textures": {
-        "all": "simply-biomes:block/pumice"
+        "all": "simplybiomes:block/volcanic_ash"
     }
 }

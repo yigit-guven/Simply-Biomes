@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 
 @Mod(SimplyBiomes.MODID)
 public class SimplyBiomes {
-    public static final String MODID = "simply-biomes";
+    public static final String MODID = "simplybiomes";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public SimplyBiomes(FMLJavaModLoadingContext context) {

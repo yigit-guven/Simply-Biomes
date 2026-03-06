@@ -20,8 +20,8 @@ public class ModBlocks {
 
         public static final RegistryObject<Block> VOLCANIC_ASH = registerBlock("volcanic_ash",
                         () -> new net.yigitguven.simplybiomes.block.VolcanicAshBlock(
-                                        BlockBehaviour.Properties.copy(Blocks.SNOW).mapColor(MapColor.COLOR_BLACK)
-                                                        .strength(0.1f).sound(SoundType.SAND)));
+                                        BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK)
+                                                        .replaceable().strength(0.1f).sound(SoundType.SAND)));
 
         public static final RegistryObject<Block> SCORIA = registerBlock("scoria",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).mapColor(MapColor.COLOR_BLACK)

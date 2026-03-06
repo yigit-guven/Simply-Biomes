@@ -1,10 +1,10 @@
 {
     "parent": "minecraft:block/thin_block",
     "textures": {
-        "particle": "simply-biomes:block/volcanic_ash",
-        "side": "simply-biomes:block/volcanic_ash",
-        "top": "simply-biomes:block/volcanic_ash",
-        "bottom": "simply-biomes:block/volcanic_ash"
+        "particle": "simplybiomes:block/volcanic_ash",
+        "side": "simplybiomes:block/volcanic_ash",
+        "top": "simplybiomes:block/volcanic_ash",
+        "bottom": "simplybiomes:block/volcanic_ash"
     },
     "elements": [
         {
