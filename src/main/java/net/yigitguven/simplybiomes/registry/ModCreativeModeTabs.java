@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SCORIA.get());
                         output.accept(ModBlocks.PUMICE.get());
                         output.accept(ModBlocks.BLACK_SAND.get());
+                        output.accept(ModItems.ASH.get());
                     })
                     .build());
 
