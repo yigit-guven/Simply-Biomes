@@ -21,16 +21,16 @@ public class ModBlocks {
         public static final RegistryObject<Block> VOLCANIC_ASH = registerBlock("volcanic_ash",
                         () -> new net.yigitguven.simplybiomes.block.VolcanicAshBlock(
                                         BlockBehaviour.Properties.copy(Blocks.SNOW).mapColor(MapColor.COLOR_BLACK)
-                                                        .strength(0.1f).sound(SoundType.SNOW)));
+                                                        .strength(0.1f).sound(SoundType.SAND)));
 
         public static final RegistryObject<Block> SCORIA = registerBlock("scoria",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).mapColor(MapColor.COLOR_BLACK)
-                                        .strength(1.5f, 6.0f).sound(SoundType.STONE)));
+                                        .strength(1.5f, 6.0f).sound(SoundType.BASALT)));
 
         public static final RegistryObject<Block> PUMICE = registerBlock("pumice",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
                                         .mapColor(MapColor.TERRACOTTA_LIGHT_GRAY)
-                                        .strength(1.0f, 4.0f).sound(SoundType.STONE)));
+                                        .strength(1.0f, 4.0f).sound(SoundType.TUFF)));
 
         public static final RegistryObject<Block> BLACK_SAND = registerBlock("black_sand",
                         () -> new FallingBlock(
