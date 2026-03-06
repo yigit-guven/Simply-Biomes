@@ -4,5 +4,6 @@
     "block.simplybiomes.scoria": "Scoria",
     "block.simplybiomes.pumice": "Pumice",
     "block.simplybiomes.black_sand": "Black Sand",
-    "item.simplybiomes.ash": "Ash"
+    "item.simplybiomes.ash": "Ash",
+    "biome.simplybiomes.volcanic_desert": "Volcanic Desert"
 }

@@ -37,6 +37,24 @@ public class ModBlocks {
                                         BlockBehaviour.Properties.copy(Blocks.SAND).mapColor(MapColor.COLOR_BLACK)
                                                         .strength(0.5f).sound(SoundType.SAND)));
 
+        public static final RegistryObject<Block> SULFUR_BLOCK = registerBlock("sulfur_block",
+                        () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).mapColor(MapColor.COLOR_YELLOW)
+                                        .strength(1.5f, 6.0f).sound(SoundType.STONE)));
+
+        public static final RegistryObject<Block> FUMAROLE = registerBlock("fumarole",
+                        () -> new net.yigitguven.simplybiomes.block.FumaroleBlock(
+                                        BlockBehaviour.Properties.copy(Blocks.STONE).mapColor(MapColor.COLOR_GRAY)
+                                                        .strength(2.0f, 6.0f).sound(SoundType.STONE).randomTicks()));
+
+        public static final RegistryObject<Block> VOLCANIC_SOIL = registerBlock("volcanic_soil",
+                        () -> new net.yigitguven.simplybiomes.block.VolcanicSoilBlock(
+                                        BlockBehaviour.Properties.copy(Blocks.DIRT).mapColor(MapColor.COLOR_BLACK)
+                                                        .strength(0.5f).sound(SoundType.GRAVEL).randomTicks()));
+
+        public static final RegistryObject<Block> VOLCANIC_SHRUB = registerBlock("volcanic_shrub",
+                        () -> new net.minecraft.world.level.block.DeadBushBlock(
+                                        BlockBehaviour.Properties.copy(Blocks.DEAD_BUSH).mapColor(MapColor.WOOD)));
+
         private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
                 RegistryObject<T> toReturn = BLOCKS.register(name, block);
                 registerBlockItem(name, toReturn);
